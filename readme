@@ -44,7 +44,7 @@ En algunos casos, al hacer scraping de VividSeats, podrías recibir un error HTT
 Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/tu-usuario/proyecto-entradas.git
+git clone https://github.com/edwardavid/PROYECTO_ENTRADAS
 
 
 

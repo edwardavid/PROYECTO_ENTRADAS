@@ -1,0 +1,51 @@
+# Analizador de Entradas para Eventos - VividSeats y SeatGeek
+
+Este proyecto  PHP que permite analizar entradas disponibles para eventos en dos plataformas: **VividSeats** y **SeatGeek**. El script recibe como parámetro una URL de un evento y muestra las entradas disponibles, con su sector, fila y precio.
+
+## Características
+
+- **Compatibilidad con dos plataformas**: El script puede procesar eventos de **VividSeats** y **SeatGeek**.
+- **Scraping de entradas**: Extrae y muestra la información de las entradas disponibles (sector, fila y precio).
+- **Manejo de URL como parámetro**: El script recibe una URL de evento como parámetro y procesa la página correspondiente.
+
+## Requisitos
+
+- **PHP**: Asegúrate de tener PHP 7.4 o superior instalado en tu máquina.
+- **Composer**: Debes instalar las dependencias a través de Composer.
+
+## Instalación
+
+composer install
+
+php -S localhost:8000
+Esto iniciará un servidor local en la dirección http://localhost:8000.
+
+
+## Uso
+
+Para analizar un evento de VividSeats, ingresa en tu navegador la siguiente URL:
+
+http://localhost:8000/analizador_entradas.php?url=https://www.vividseats.com/real-madrid-tickets-estadio-santiago-bernabeu-12-22-2024--sports-soccer/production/5045935
+
+
+Para analizar un evento de SeatGeek, ingresa en tu navegador la siguiente URL:
+
+http://localhost:8000/analizador_entradas.php?url=https://seatgeek.com/taylor-swift-tickets/toronto-canada-rogers-centre-2024-11-15-7-pm/concert/6109452
+
+
+## Problemas conocidos
+
+Error 403 en VividSeats
+En algunos casos, al hacer scraping de VividSeats, podrías recibir un error HTTP 403. Esto sucede debido a protecciones anti-scraping implementadas por el sitio.
+
+
+### 1. Clonar el repositorio
+
+Clona este repositorio en tu máquina local:
+
+```bash
+git clone https://github.com/tu-usuario/proyecto-entradas.git
+
+
+
+ 

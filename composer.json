@@ -1,0 +1,7 @@
+{
+    "require": {
+        "fabpot/goutte": "*",
+        "symfony/http-client": "^6.4",
+        "symfony/dom-crawler": "^6.4"
+    }
+}
